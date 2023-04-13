@@ -1,0 +1,6 @@
+server:
+  port: 8989
+spring:
+  profiles:
+    active: common-prod,druid-dev,redis-dev
+#    active: common-prod,druid-prod,redis-prod
